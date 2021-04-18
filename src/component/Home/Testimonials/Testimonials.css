@@ -1,0 +1,17 @@
+.testimonials .container{
+
+    background-size: 150px;
+}
+.testimonials .card{
+    border-color: transparent;
+}
+
+.testimonials .card .card-footer{
+    background: transparent;
+    border: 0;
+}
+.testimonials {
+    background-color: rgb(173, 142, 106);
+    padding: 20px;
+    border-radius: 10px;
+}
