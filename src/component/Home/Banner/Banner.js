@@ -10,6 +10,7 @@ const Banner = () => {
     }
     return (
         <div className="container">
+            <h1>Hello world</h1>
             <Carousel>
                 <Carousel.Item>
                     <img
