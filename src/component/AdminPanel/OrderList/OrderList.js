@@ -33,7 +33,7 @@ const OrderList = () => {
         <section>
             <MiniNav page = {page}></MiniNav>
             <div className="row">
-                <div className="col-md-2">
+                <div className="col-md-2 col-sm-12">
                     <Sidebar></Sidebar>
                 </div>
                 <div className="col-md-9 container-style">

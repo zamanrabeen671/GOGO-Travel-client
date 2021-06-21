@@ -11,7 +11,11 @@
     border: 0;
 }
 .testimonials {
-    background-color: rgb(173, 142, 106);
+    background-color: #0b0516;
     padding: 20px;
     border-radius: 10px;
+    color: white;
+}
+.brand-color{
+    color: white
 }

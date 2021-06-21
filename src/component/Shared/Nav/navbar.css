@@ -1,0 +1,22 @@
+.nav-item .nav-link{
+    font-size: 16px;
+}
+.nav-style:hover{
+    color: orange;
+    font-size: 18px;
+    transition: all .7s ease;
+}
+.nav-style{
+    color: white;
+    font-size: 26px;
+}
+.navbar .navbar-toggler{
+    color: green;
+    border: 2px solid green;
+    background-color: #171816;
+ }
+ .navbar-toggler-icon{
+    color: cyan;
+    font-size: 16px;
+    margin: 0 auto;
+}

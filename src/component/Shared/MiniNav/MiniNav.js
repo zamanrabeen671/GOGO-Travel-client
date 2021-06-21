@@ -10,7 +10,7 @@ const MiniNav = ({page}) => {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mr-auto">
-                        <Nav.Link href="#" className="me-5 text-primary">{page}</Nav.Link>
+                        <Nav.Link to = "/" className="me-5 text-primary">{page}</Nav.Link>
                         
                     </Nav>
                     <Link to="/login">Login</Link>

@@ -17,8 +17,8 @@ const UserOrder = ({ booked }) => {
                         <img src={touricon} style={{ height: '50px', width: '100px' }} alt="" />
                     </div>
                     <div className="col-md-4">
-                        <button className={booked.status=== "pending" ?  "btn btn-danger" : booked.status === 'Done' ? "btn btn-success" :
-                         "btn btn-info" }>{booked.status}</button>
+                        <button className={booked.status=== "Pending" ?  "btn btn-danger disabled" : booked.status === 'Done' ? "btn btn-success disabled" :
+                         "btn btn-info disabled" }>{booked.status}</button>
                     </div>
                 </div>
                 <h4 className="text-center">{booked.service}</h4>

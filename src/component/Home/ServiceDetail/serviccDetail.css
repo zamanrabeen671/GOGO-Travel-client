@@ -9,7 +9,7 @@
 
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
-    transition: all .3s ease-out;
+    transition: all .5s ease-out;
     background-color: rgb(192, 231, 238);
-    box-shadow: 10px 10px 15px gray;
+    box-shadow: 5px 5px 10px #535353;
 }

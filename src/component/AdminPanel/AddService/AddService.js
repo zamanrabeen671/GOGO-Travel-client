@@ -17,8 +17,9 @@ const AddService = () => {
         const newFile = e.target.files[0];
         setFile(newFile);
     }
-    const handleSubmit = () => {
+    const handleSubmit = (e) => {
         const formData = new FormData()
+        console.log('service admin', service);
         formData.append('file', file);
         formData.append('name', service.name);
         formData.append('description', service.description);
@@ -30,11 +31,12 @@ const AddService = () => {
         })
             .then(response => response.json())
             .then(data => {
-                console.log(data)
+                console.log('service add',data)
             })
             .catch(error => {
                 console.error(error)
             })
+        e.preventDefault();
     }
     const containerStyle = {
         backgroundColor: 'lightGray',

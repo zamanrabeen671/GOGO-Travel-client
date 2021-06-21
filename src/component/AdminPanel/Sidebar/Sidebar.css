@@ -12,9 +12,15 @@
 .sidebar svg{
     margin-right: 5px;
 }
+#responsive-nav{
+    display: none;
+}
 @media (max-width: 720px) {
     .sidebar{
         display: none;
         opacity: 0;
+    }
+    #responsive-nav {
+        display: block;
     }
 }
