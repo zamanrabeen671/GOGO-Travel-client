@@ -2,7 +2,7 @@ import React from 'react';
 import bali from '../../../image/bali.jpg'
 const Featured = () => {
     const containerStyle = {
-        backgroundColor: '#F1F3D3',
+        backgroundColor: '#eaf5f2',
         padding: '30px 10px',
         borderRadius: '10px'
     }

@@ -39,7 +39,7 @@ const images = [
 ]
 const TourImage = () => {
     const containerStyle = {
-        backgroundColor: '#D1BFDC',
+        backgroundColor: '#eaf5f2',
         padding: '30px 10px',
         borderRadius: '10px'
     }
