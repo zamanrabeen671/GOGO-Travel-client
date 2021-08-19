@@ -1,0 +1,14 @@
+.banner-container{
+    background: url(../../../image/giphy.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    color: #f1e2e2;
+}
+/* .img-container img{
+    height: 300px;
+    border-radius: 50%;
+} */

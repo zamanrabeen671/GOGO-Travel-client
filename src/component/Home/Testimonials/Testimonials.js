@@ -34,8 +34,8 @@ const Testimonials = () => {
             })
     }, [])
     return (
-        <section className=" my-5 py-5">
-            <div className="container testimonials">
+        <section className=" my-5 py-5 testimonials">
+            <div className="container">
                 <div className="section-header">
                     <h5 className="text-primary text-center text-uppercase">TESTIMONIALS</h5>
                     <h3 className="text-center">What Our Customer   <br /> Says About Us </h3>
@@ -64,13 +64,13 @@ const Testimonials = () => {
                                     <div className="card-footer d-flex  align-items-center">
                                         <img className="mx-3" src={testimonial.img[0]} alt="profile avatar" width="60" />
                                         <div>
-                                            <h6 className="text-white">{testimonial.data.name}</h6>
-                                            <p className="m-0 text-white">{testimonial.data.company}</p>
+                                            <h6 className="text-dark">{testimonial.data.name}</h6>
+                                            <p className="m-0 text-dark">{testimonial.data.company}</p>
                                         </div>
                                     </div>
 
                                     <div className="card-body">
-                                        <p className="card-text text-center">{testimonial.data.description}</p>
+                                        <p className="card-text text-dark text-center">{testimonial.data.description}</p>
                                     </div>
 
                                     <div className="d-flex justify-content-center align-items-center m-0">

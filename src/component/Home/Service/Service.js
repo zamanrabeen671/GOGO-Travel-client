@@ -36,7 +36,7 @@ const Service = () => {
     }
     return (
         <div className="container mt-5">
-            <h1 className="text-center text-white m-5">Our Events</h1>
+            <h1 className="text-center text-dark m-5">Our Events</h1>
             <div className="row">
                 <Preloader visibility={preloaderVisibility}></Preloader>
                 <Swiper

@@ -44,8 +44,8 @@ const TourImage = () => {
         borderRadius: '10px'
     }
     return (
-        <section className="blogs my-5 " >
-           <div className="container" style={containerStyle}>
+        <section className="blogs my-5 "style={containerStyle} >
+           <div className="container">
                <div className="section-header text-center">
                     <h5 className="text-primary text-uppercase">Choose Your</h5>
                     <h1>Perfect Holiday</h1>
